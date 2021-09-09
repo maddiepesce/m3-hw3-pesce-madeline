@@ -3,24 +3,59 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="">
-    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="less/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1" ></script>
+    <title>Bob's Burgers</title>
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
     <meta name="description" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body class="site">
+
+    <nav>
     <ul>
-      <li>Home</li>
-      <li>Menu</li>
-      <li>About Us</li>
-      <li>Order Now</li>
+      <li><a href= "#">Home</a></li>
+      <li><a href= "#">Menu</a></li>
+      <li><a href= "#">About Us</a></li>
+      <li><a class="emphText" href= "#">Order Now</a></li>
     </ul>
-    <h1>Bob's Burgers</h1>
-    <button>Order Now</button>
-    <h2>World's Best Burgers</h2>
+  </nav>
+
+  <div class="main-logo" class="text-center">
+    <img class="logo" src="img/logo.png" alt="logo">
+  </div>
+
+  <button class="specialButton">ORDER NOW</button>
+
+  <div>
+    <img src="img/banner.png" class="img-fluid" alt="banner image">
+  </div>
+
+    <section>
+        <img class="burger" src="img/bobs-burger.png" alt="logo">
+    <h2>World's Best <span class="redText">Burgers</span></h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
     <button>View Menu</button>
-    <h2>Dine-in or Take-out</h2>
+  </section>
+
+    <section class="bg-light" class="container-fluid" class="site-content">
+      <div>
+        <img class="bob" src="img/bob-headshot.png" alt="bob">
+    <h2>Dine-in <span class="lcText">or</span> <span class="redText">Take-out</span></h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
     <button>Contact Us</button>
+  </div>
+  </section>
+
+  <footer class="container-fluid">
+    <div class="text-center">
+    <img class="logo" src="img/logo.png" alt="logo">
+  </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
   </body>
 </html>

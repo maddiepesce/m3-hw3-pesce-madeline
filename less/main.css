@@ -1,0 +1,102 @@
+.bordered {
+  border-top: solid 10px #f8df20;
+}
+.body-copy {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1em;
+  color: black;
+}
+nav {
+  background-color: #f8df20;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1em;
+  height: 80%;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+}
+nav ul li {
+  padding: 30px;
+  font-weight: 500;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+button {
+  background-color: #f8df20;
+  border: none;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 10px 15px 10px 15px;
+  border-radius: 0.3em;
+}
+h2 {
+  text-transform: uppercase;
+}
+h2 .lcText {
+  text-transform: lowercase;
+}
+h2 .redText {
+  color: red;
+}
+.emphText {
+  color: red;
+  text-transform: uppercase;
+}
+.site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: white;
+}
+.site-content {
+  flex: 1;
+}
+section {
+  padding: 50px;
+}
+p {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1em;
+  color: black;
+  font-weight: lighter;
+}
+.burger {
+  float: right;
+  padding: 30px 0 30px 30px;
+  width: 30%;
+}
+.bob {
+  float: left;
+  padding: 30px;
+  width: 30%;
+  margin-bottom: 50px;
+}
+.logo {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.main-logo,
+.specialButton {
+  margin-top: 90px;
+  margin-left: 35%;
+  position: absolute;
+  z-index: 2;
+}
+.specialButton {
+  margin-top: 300px;
+  margin-left: 46%;
+}
+footer {
+  background-color: black;
+  border-top: solid 10px #f8df20;
+  height: 40%;
+  margin: 0 50px;
+}
